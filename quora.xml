@@ -3,7 +3,7 @@
     android:id="@+id/RelativeLayout1"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#E0E0E0"
+    android:background="#ffff00"
     android:orientation="vertical" >
 
     <LinearLayout
@@ -25,8 +25,6 @@
             android:id="@+id/textView1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="5dp"
-            android:layout_marginRight="5dp"
             android:text="Quora connects you to everything you want to know about."
             android:textColor="#5E5E5E"
             android:textSize="16sp" />
@@ -46,11 +44,9 @@
 
         <ImageView
             android:id="@+id/imageView2"
-            android:layout_width="wrap_content"
+            android:layout_width="wrap_content" 
             android:layout_height="wrap_content"
             android:layout_alignParentLeft="true"
-            android:layout_centerVertical="true"
-            android:layout_marginLeft="30dp"
             android:src="@drawable/fb" />
 
         <TextView
@@ -60,7 +56,6 @@
             android:layout_alignParentRight="true"
             android:layout_centerVertical="true"
             android:layout_toRightOf="@+id/imageView2"
-            android:gravity="left"
             android:text="Sign Up with Facebook"
             android:textAppearance="?android:attr/textAppearanceMedium"
             android:textColor="#F3FCFF" />
@@ -92,9 +87,9 @@
             android:id="@+id/button1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginRight="2dp"
             android:layout_weight="1.0"
             android:background="#F4F4F4"
-            android:layout_marginRight="2dp"
             android:text="Learn More"
             android:textAllCaps="false"
             android:textColor="#232323" />
@@ -103,9 +98,9 @@
             android:id="@+id/button2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginLeft="2dp"
             android:layout_weight="1.0"
             android:background="#D2E78C"
-            android:layout_marginLeft="2dp"
             android:text="Log In"
             android:textAllCaps="false"
             android:textColor="#527121" />
@@ -114,11 +109,11 @@
     <RelativeLayout
         android:id="@+id/relativeLayout3"
         android:layout_width="wrap_content"
-        android:layout_marginTop="5dp"
         android:layout_height="wrap_content"
         android:layout_alignLeft="@+id/relativeLayout2"
         android:layout_alignRight="@+id/relativeLayout2"
         android:layout_below="@+id/relativeLayout2"
+        android:layout_marginTop="5dp"
         android:background="#2E61A2" >
 
         <ImageView
