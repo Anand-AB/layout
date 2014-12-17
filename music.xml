@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#353635"
+    android:orientation="vertical"
+    android:padding="25dp" >
+
+    <RelativeLayout
+        android:layout_width="300dp"
+        android:layout_height="500dp"
+        android:background="#ffff"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:id="@+id/linearLayout1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="26dp"
+            android:background="#ffff"
+            android:weightSum="2.0" >
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:layout_weight="1.0"
+                android:background="#ffffff"
+                android:src="@android:drawable/star_big_on" />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:layout_weight="1.0"
+                android:background="#ffffff"
+                android:src="@android:drawable/sym_call_missed" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout2"
+            android:layout_width="wrap_content"
+            android:layout_height="120dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/linearLayout1"
+            android:background="#ffff"
+            android:weightSum="2.0" >
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:layout_weight="1.0"
+                android:background="#ffffff"
+                android:src="@android:drawable/sym_action_call" />
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:layout_weight="1.0"
+                android:background="#ffffff"
+                android:src="@android:drawable/stat_sys_phone_call_on_hold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout3"
+            android:layout_width="wrap_content"
+            android:layout_height="120dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/linearLayout2"
+            android:background="#ffff"
+            android:weightSum="3.0" >
+
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:layout_weight="1.0"
+                android:background="#ffffff"
+                android:src="@android:drawable/sym_call_incoming" />
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:layout_weight="1.0"
+                android:background="#ffffff"
+                android:src="@android:drawable/stat_sys_phone_call_forward" />
+
+            <ImageView
+                android:id="@+id/imageView7"
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:layout_weight="1.0"
+                android:background="#ffffff"
+                android:src="@android:drawable/sym_call_outgoing" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="120dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/linearLayout3"
+            android:background="#ffff"
+            android:weightSum="3.0" >
+
+            <ImageView
+                android:id="@+id/imageView8"
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:layout_weight="1.0"
+                android:background="#ffffff"
+                android:src="@android:drawable/sym_action_email" />
+
+            <ImageView
+                android:id="@+id/imageView9"
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:layout_weight="1.0"
+                android:background="#ffffff"
+                android:src="@android:drawable/stat_sys_vp_phone_call" />
+
+            <ImageView
+                android:id="@+id/imageView10"
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:layout_weight="1.0"
+                android:background="#ffffff"
+                android:src="@android:drawable/stat_sys_vp_phone_call_on_hold" />
+        </LinearLayout>
+    </RelativeLayout>
+
+</RelativeLayout>
